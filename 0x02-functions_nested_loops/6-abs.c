@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 
 /**
  * _abs - computes the absolute value of an integer
@@ -7,9 +7,8 @@
  */
 int _abs(int n)
 {
-	if (n >= 0)
-	{
-		return (n);
-	}
-	return (-n);
+	if (n < 0)
+	{ n = (-10) * n;
+}
+	return (n);
 }
