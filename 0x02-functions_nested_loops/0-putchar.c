@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * main -  prints Holberton, followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('_');
+	_putchar('-');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
